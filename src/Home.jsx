@@ -17,7 +17,6 @@ const Home = () => {
           style={{
             width: "250px",
             height: "250px",
-            marginTop: "100px",
             marginBottom: "-80px",
           }} // Increased size of the person icon
         />

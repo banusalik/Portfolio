@@ -8,6 +8,7 @@ const Contact = () => {
         background: "linear-gradient(to right, #6366F1, #9333EA, #EC4899)",
         height: "auto",
         padding: "10px",
+        paddingBottom: "100px",
       }}
     >
       <div
@@ -122,7 +123,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
-      <Nav style={{ marginLeft: "100px", marginRight: "20px" }} />
+      <Nav />
     </div>
   );
 };

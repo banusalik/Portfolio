@@ -22,7 +22,13 @@ const Timeline = () => {
         {/* Container 1 */}
         <div
           className="grid-item"
-          style={{ background: "#E4CDF4", borderRadius: "12px" }}
+          style={{
+            background: "white",
+            borderRadius: "12px",
+            background: "rgba(255, 255, 255, 0.24)",
+            backdropFilter: "blur(5px)",
+            boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)",
+          }}
         >
           {/* Content */}
           <div
@@ -30,8 +36,6 @@ const Timeline = () => {
             style={{
               width: "500px",
               height: "auto",
-              borderRadius: "12px",
-              background: "#E4CDF4",
             }}
           >
             {/* Photo */}
@@ -98,6 +102,7 @@ const Timeline = () => {
                   width: "129px",
                   height: "36px",
                   padding: "12px",
+                  paddingBottom: "12px",
                   borderRadius: "8px",
                   border: "1px solid #FFFFFF80",
                 }}
@@ -112,6 +117,7 @@ const Timeline = () => {
                   width: "129px",
                   height: "36px",
                   padding: "12px",
+                  paddingBottom: "12px",
                   borderRadius: "8px",
                   border: "1px solid #FFFFFF80",
                 }}
@@ -124,7 +130,13 @@ const Timeline = () => {
         {/* Container 2 */}
         <div
           className="grid-item"
-          style={{ background: "#E4CDF4", borderRadius: "12px" }}
+          style={{
+            background: "#E4CDF4",
+            borderRadius: "12px",
+            background: "rgba(255, 255, 255, 0.24)",
+            backdropFilter: "blur(5px)",
+            boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)",
+          }}
         >
           {/* Content */}
           <div
@@ -132,8 +144,6 @@ const Timeline = () => {
             style={{
               width: "500px",
               height: "auto",
-              borderRadius: "12px",
-              background: "#E4CDF4",
             }}
           >
             {/* Photo */}
@@ -200,6 +210,7 @@ const Timeline = () => {
                   width: "129px",
                   height: "36px",
                   padding: "12px",
+                  paddingBottom: "12px",
                   borderRadius: "8px",
                   border: "1px solid #FFFFFF80",
                 }}
@@ -214,6 +225,7 @@ const Timeline = () => {
                   width: "129px",
                   height: "36px",
                   padding: "12px",
+                  paddingBottom: "12px",
                   borderRadius: "8px",
                   border: "1px solid #FFFFFF80",
                 }}
@@ -226,7 +238,13 @@ const Timeline = () => {
         {/* Container 3 */}
         <div
           className="grid-item"
-          style={{ background: "#E4CDF4", borderRadius: "12px" }}
+          style={{
+            background: "white",
+            borderRadius: "12px",
+            background: "rgba(255, 255, 255, 0.24)",
+            backdropFilter: "blur(5px)",
+            boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)",
+          }}
         >
           {/* Content */}
           <div
@@ -234,8 +252,6 @@ const Timeline = () => {
             style={{
               width: "500px",
               height: "auto",
-              borderRadius: "12px",
-              background: "#E4CDF4",
             }}
           >
             {/* Photo */}
@@ -302,6 +318,7 @@ const Timeline = () => {
                   width: "129px",
                   height: "36px",
                   padding: "12px",
+                  paddingBottom: "12px",
                   borderRadius: "8px",
                   border: "1px solid #FFFFFF80",
                 }}
@@ -316,6 +333,7 @@ const Timeline = () => {
                   width: "129px",
                   height: "36px",
                   padding: "12px",
+                  paddingBottom: "12px",
                   borderRadius: "8px",
                   border: "1px solid #FFFFFF80",
                 }}
@@ -328,7 +346,13 @@ const Timeline = () => {
         {/* Container 4 */}
         <div
           className="grid-item"
-          style={{ background: "#E4CDF4", borderRadius: "12px" }}
+          style={{
+            background: "white",
+            borderRadius: "12px",
+            background: "rgba(255, 255, 255, 0.24)",
+            backdropFilter: "blur(5px)",
+            boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)",
+          }}
         >
           {/* Content */}
           <div
@@ -336,8 +360,6 @@ const Timeline = () => {
             style={{
               width: "500px",
               height: "auto",
-              borderRadius: "12px",
-              background: "#E4CDF4",
             }}
           >
             {/* Photo */}
@@ -404,6 +426,7 @@ const Timeline = () => {
                   width: "129px",
                   height: "36px",
                   padding: "12px",
+                  paddingBottom: "12px",
                   borderRadius: "8px",
                   border: "1px solid #FFFFFF80",
                 }}
@@ -417,7 +440,8 @@ const Timeline = () => {
                   backgroundColor: "#FFFFFF",
                   width: "129px",
                   height: "36px",
-                  padding: "12px",
+                  padding: "6px",
+                  paddingBottom: "12px",
                   borderRadius: "8px",
                   border: "1px solid #FFFFFF80",
                 }}
